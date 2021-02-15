@@ -18,11 +18,12 @@ export class  DbzService {
     get personajes(): Personaje[] {
         return [...this._personajes];
     }
+         
+    constructor() {}
 
+    agregarPersonaje( personaje: Personaje){
+      this._personajes.push( personaje );
 
-      
-    constructor() {
-        console.log('Servicio Inicializado');
     }
 
 }
