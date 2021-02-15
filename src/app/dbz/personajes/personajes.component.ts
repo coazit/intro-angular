@@ -9,4 +9,5 @@ export class PersonajesComponent{
   
   @Input('dataPersonajes')
   personajes: Personaje [] = [];
+
 }
